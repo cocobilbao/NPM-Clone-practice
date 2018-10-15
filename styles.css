@@ -1,0 +1,205 @@
+body{
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    background-color: #c12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    height: 35px;
+}
+nav a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+.top-links {
+float: right;
+padding: 0px;
+margin: -20px 20px 0 0; 
+}
+.top-links li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.top-left{
+      margin: 0px 20px;
+}
+
+header{
+    color: white;
+    background: rgb(32, 101, 136);
+    height: 620px;
+    padding:15px;
+    background-image: url(https://static.npmjs.com/images/hero-cityscape.svg);
+    background-size: cover;
+}
+header form input{
+    border:2px solid rgb(7, 67, 99);
+    background-color:rgb(31, 82, 111);
+    padding:10px 50px;
+    font-size:18px;
+    border-radius:4px 0 0 4px;
+    
+}
+header form button{
+    border:2px solid rgb(7, 67, 99);
+    background-color:rgb(31, 82, 111);
+    padding:10px 20px;
+    font-size:18px;
+    color:  rgb(100, 118, 128);
+}
+.col-header{
+    float: left;
+    width: 50%;
+}
+header a{
+    color: white;
+}
+.logo img{
+    float:left;
+    width:100px;
+}
+.signup img{
+    float:right;
+    width:50px;
+    border-radius: 30px;
+}
+.signup {
+    float:right;
+    text-align:right;
+}
+.btn-orange{
+    background: rgb(240, 146, 51);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.build{
+    width: 40%;
+    margin: 10% 0 0 15%;
+}
+.build h1 {
+    font-size:3em;
+    width:80%;
+    font-weight:normal;
+}
+.build p {
+    font-size:1.3em;
+    font-weight:normal;
+}
+
+
+#grupo{
+    background-color:  rgb(39, 65, 80);
+    color: white;
+    padding: 15px;
+}
+#grupo a{
+    color: white;
+}
+#grupo .grupo-content {
+    margin:0 auto;
+    width:80%;
+    height:580px;
+    padding: 100px 20px 40px 40px;
+}
+.grupo-1 {
+    float:left;
+    width:50%;
+    padding-top: 20px;
+}
+.grupo-2{
+    float:right;
+    width: 40%;
+}
+.grupo-2 h2 {
+    font-size:2.5em;
+    font-weight:normal;
+    width: 95%;
+}
+.grupo-2 ul {
+    padding:0 0 0 18px;
+    margin: 0 0 28px 0;
+    width: 90%;
+}
+.grupo-2 ul li {
+    font-size:1.2em;
+    font-weight:normal;
+    margin: 0 0 14px 0;
+}
+.btn-red{
+    background: rgb(206, 56, 55);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#cajas{
+    background:rgb(45, 112, 236);
+    background-image: url(https://static.npmjs.com/images/npm-is-BOXES.svg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    padding: 15px;    
+}
+
+.cajas-content{
+    float: left;
+    padding: 10px;
+    margin: 90px 20px 20px 180px;
+}
+.cajas-content h2{
+    font-size: 2.5em;
+    font-weight:normal;
+    width: 90%;
+}
+.cajas-content p{
+    font-size: 1.2em;
+    margin: 0 0 14px 0;
+    width: 33%;
+}
+.btn-blue{
+    background: rgb(49, 68, 88);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+#opciones{
+    background-color: white;
+    margin:0 auto;
+    text-align: center;
+    padding: 15px;
+}
+.col{
+    float: left;
+    width: 33%;
+}
+#opciones h2{
+color: rgb(83, 88, 98);
+}
+#opciones h3{
+    color: rgb(83, 88, 98); 
+}
+#opciones p{
+    color: rgb(135, 145, 156);
+    text-align: center;
+}
+#opciones a{
+    color:rgb(208, 74, 73);
+}
+.parrafo p{
+    width:50%;
+    margin:0 auto;
+
+}
